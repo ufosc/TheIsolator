@@ -6,6 +6,8 @@ An ActivityPub implementation for static websites. Built during SwampHacks 2019.
 
 Install [Ruby and Jekyll](https://jekyllrb.com/docs/installation/).
 
+Install [Dep](https://github.com/golang/dep)
+
 <!-- Add Go Info -->
 
 ## Running
@@ -16,6 +18,9 @@ For local development, first setup Jekyll:
 cd jekyll
 bundle exec jekyll serve
 ```
+
+Follow the set up instructions for creating your GoLang workspace: 
+You can view instructions [here](https://golang.org/doc/code.html)
 
 ## License
 
