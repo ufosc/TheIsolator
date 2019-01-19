@@ -34,6 +34,26 @@ go build
 ./build
 ```
 
+To get all dependencies (Assuming Dep is already installed):
+```bash
+cd go
+dep install
+#there should be no error outputs, you should only see "Fetching sources"
+#followed by download status indicators. 
+```
+
+To add dependency (assuming dep is already installed)
+If youre using VS code, the GOlang extension will prevent you from testing if
+anything is actually compiling because it will automatically remove unused imports by default
+but, you can manually add and track the dependency using:
+```bash
+cd go
+dep ensure -add [GITHUB URL/PACKAGE SRC]
+# no feedback on this aside from "fetching packages",
+#if there's errors it'll note them
+```
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
