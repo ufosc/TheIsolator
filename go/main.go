@@ -1,4 +1,4 @@
-package isolator
+package main
 
 import (
 	"fmt"
