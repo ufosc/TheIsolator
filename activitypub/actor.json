@@ -1,0 +1,23 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/activitystreams",
+		"https://w3id.org/security/v1"
+	],
+
+	"id": "https://codecaptured.com/theisolator/activitypub/actor",
+	"type": "Person",
+	"preferredUsername": "alice",
+	"inbox": "https://codecaptured.com/theisolator/activitypub/inbox",
+
+	"publicKey": {
+		"id": "https://codecaptured.com/theisolator/activitypub/actor#main-key",
+		"owner": "https://codecaptured.com/theisolator/activitypub/actor",
+		"publicKeyPem": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAws6lpDBYRer8U6fa3LN4 \n
+		hcIumIA7kThYS1d96ZVgtrQqC+iswESttWH0sASOFOsfZBJtoA1YvekIFTToBjA6 \n
+		mB51PwGTFrMX1nRPEy9F6GoQB5fxsEjYJf+dzgGbNEPhKtxACNGmF/r3mS/T//WZ \n 
+		O0d3HQ0M4JSQIoOItOUAajDjpd6tMZ2g6+2dnLpvfZ/2PuVMPnjomcM2pgNkDgUP \n
+		Gld6CWvABm9p91fhRvtKoQ/NNrtliJ2GtbRrAGj2uDw5YLVgTpE/bLcVoYSH7Q3i \n
+		QWXH7PqjV5X/85vtZIKla0wMSvJDIauvr3t05332ErY5lxcv9mI/1ydg+G4RX+L6 \n
+		uwIDAQAB"
+	}
+}

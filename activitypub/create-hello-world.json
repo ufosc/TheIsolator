@@ -1,0 +1,17 @@
+{
+	"@context": "https://www.w3.org/ns/activitystreams",
+
+	"id": "https://codecaptured.com/theisolator/activitypub/create-hello-world",
+	"type": "Create",
+	"actor": "https://codecaptured.com/theisolator/activitypub/actor",
+
+	"object": {
+		"id": "https://codecaptured.com/theisolator/activitypub/hello-world",
+		"type": "Note",
+		"published": "2018-06-23T17:17:11Z",
+		"attributedTo": "https://codecaptured.com/theisolator/activitypub/actor",
+		"inReplyTo": "https://mastodon.social/@Gargron/100254678717223630",
+		"content": "<p>Hello from SwampHacks!</p>",
+		"to": "https://www.w3.org/ns/activitystreams#Public"
+	}
+}
